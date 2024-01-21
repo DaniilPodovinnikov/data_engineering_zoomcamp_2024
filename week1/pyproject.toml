@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "\u001b[3~"
+version = "0.1.0"
+description = ""
+authors = ["Daniil Podovinnikov <pdaniil136@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+ipykernel = "^6.29.0"
+sqlalchemy = "^2.0.25"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
